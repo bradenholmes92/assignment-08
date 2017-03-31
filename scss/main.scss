@@ -1,0 +1,258 @@
+
+* {
+    box-sizing: border-box
+}
+
+body{
+  font-family: "sans-serif";
+  background-color: green;
+}
+
+img{
+  width: 100%;
+  display: inline-block;
+}
+
+
+ .column-container{
+   > * {
+     display: inline-block;
+     vertical-align: top;
+   }
+ }
+
+ .arrowdown-icon,
+ .tour,
+ .examples,
+ .pricing,
+ .login,
+ .help,
+ .blog{
+   display: none;
+ }
+ .small-but-mighty{
+   display: none;
+ }
+
+.hamburger-icon{
+  height: 53px;
+	width: 53px;
+	position: fixed;
+	top: 0;
+	left: 24px;
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 30px;
+}
+
+
+.solrod-team{
+  border: 2px gray solid;
+	top: 20px;
+  left: 145px;
+  padding: 13px 22px;
+  color: gray;
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+
+.solrod-description{
+  text-align: center;
+  margin-top: 60px;
+  background-color: white;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.caption{
+  background-color: white;
+}
+
+.jumbotron{
+  //jumbotron background image isn't working for some reason
+	background-image: url('./images/assets/solrod-drawingboard-background.jpg');
+	background-size: cover;
+	position: relative;
+	min-height: 250px;
+  padding-left: 3%;
+}
+
+.solrod-members{
+  max-width: 300px;
+  text-align: center;
+}
+
+.solrod-members p{
+  font-size: 13px;
+}
+
+.solrod-members h3{
+  font-size: 16px;
+}
+
+
+.art-grants{
+  text-align: center;
+  color: #ddd;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 24px;
+}
+
+
+
+.employee-projects{
+  max-width: 590px;
+  background-color: green;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 24px;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.projects h1{
+  font-size: 16px;
+}
+
+.projects img{
+  max-width: 590px;
+}
+
+
+.call-to-action{
+  font-size: 14px;
+  position: absolute;
+  color: white;
+  padding: 32px 0;
+  top: 35%;
+  // left: 5%;
+  width: 90%;
+	background: blue;
+  text-align: center;
+	border-radius: 4px;
+}
+
+.solrod-description h1{
+  max-width: 430px;
+}
+
+.solrod-description p{
+  max-width: 490px;
+}
+
+.social-media{
+  font-size: 35px;
+  color: gray;
+}
+
+.social-media i{
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+@media screen and (min-width: 768px){
+
+  .hamburger-icon{
+  	display: none;
+  }
+
+   .arrowdown-icon,
+   .tour,
+   .examples,
+   .pricing,
+   .login,
+   .help,
+   .blog{
+     display: inline-block;
+     vertical-align: top;
+     font-size: 12px;
+     padding: 12px;
+ }
+
+ .navbar{
+   width: 100%;
+   background: black;
+   color: white;
+ }
+
+   .login{
+     margin-left: 60%;
+   }
+
+
+  .solrod-team{
+    position: static;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+  }
+
+  .solrod-description{
+    text-align: center;
+    background-color: white;
+    width: 86%;
+    margin-left: 7%;
+    padding-right: 45px;
+  }
+
+  .solrod-description h1{
+    max-width: 100%;
+  }
+
+  .solrod-description p{
+     max-width: 70%;
+     margin: 0 auto;
+  }
+
+  .solrod-members{
+    background-color: green;
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .small-but-mighty {
+    display: block;
+    //this background image won't work either.
+    background-image: url('.images/assets/solrod-team-background.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+  .small-but-mighty img {
+    margin-left: 33%;
+    width: 325px;
+}
+  .art-grants{
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 18%;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 36px;
+  }
+
+  .call-to-action{
+     left: 30%;
+     width: 36%;
+  }
+
+  .social-media{
+    padding-left: 70%;
+    font-size: 24px;
+    background: white;
+  }
+
+}
