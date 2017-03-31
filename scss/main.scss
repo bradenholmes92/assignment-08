@@ -21,11 +21,11 @@ img{
    }
  }
 
- .arrowdown-icon,
+
  .tour,
+ .login,
  .examples,
  .pricing,
- .login,
  .help,
  .blog{
    display: none;
@@ -115,7 +115,6 @@ img{
   padding-left: 0;
   padding-right: 0;
   margin-bottom: 24px;
-  // color: #ccc;
   font-size: 12px;
 }
 
@@ -134,7 +133,6 @@ img{
   color: white;
   padding: 32px 0;
   top: 35%;
-  // left: 5%;
   width: 90%;
 	background: blue;
   text-align: center;
@@ -168,13 +166,12 @@ img{
   	display: none;
   }
 
-   .arrowdown-icon,
-   .tour,
-   .examples,
-   .pricing,
-   .login,
-   .help,
-   .blog{
+  .tour,
+  .login,
+  .examples,
+  .pricing,
+  .help,
+  .blog{
      display: inline-block;
      vertical-align: top;
      font-size: 12px;
